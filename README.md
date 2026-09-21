@@ -61,3 +61,45 @@ hackathon-gun-detection/
 ├── Test3.py
 ├── Test4.py
 └── yolov8n.pt
+
+
+## 📊 Results
+
+The project includes training and evaluation outputs generated during model development.
+
+The `runs/` directory contains:
+
+- Training results
+- Validation results
+- Confusion matrices
+- Normalized confusion matrices
+- Training and validation batch visualizations
+- Model performance plots
+
+## 🎥 Inference
+
+Sample test videos are available in the `inference/` directory:
+
+- `test.mp4`
+- `test2.mp4`
+- `test3.mp4`
+- `test4.mp4`
+
+These videos can be used to test the trained model and observe its detection performance.
+
+## 🔬 Project Workflow
+
+```text
+Dataset
+   ↓
+Data Preparation
+   ↓
+YOLO Model Training
+   ↓
+Model Evaluation
+   ↓
+Trained Model
+   ↓
+Image / Video Inference
+   ↓
+Gun Detection Results
