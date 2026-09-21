@@ -99,9 +99,3 @@ The `runs/` directory also contains:
 **Mohammed Shaik Sameer Ahmed**
 
 GitHub: https://github.com/Sameer-44
-- Trained model weights
-Trained Model
-   ↓
-Image / Video Inference
-   ↓
-Gun Detection Results
