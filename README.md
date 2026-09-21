@@ -61,7 +61,7 @@ hackathon-gun-detection/
 ├── Test3.py
 ├── Test4.py
 └── yolov8n.pt
-
+```
 
 ## 📊 Results
 
@@ -82,6 +82,23 @@ The `runs/` directory also contains:
 - Training and validation batch visualizations
 - Model performance results
 - Training configuration
+- Trained model weights
+
+## 📚 Learning Outcomes
+
+- Computer vision and image-based gun detection
+- YOLO model training and evaluation
+- Object detection and image classification
+- OpenCV-based image and video processing
+- Model inference using trained weights
+- Understanding of training and validation results
+- Python-based computer vision development
+
+## 👨‍💻 Author
+
+**Mohammed Shaik Sameer Ahmed**
+
+GitHub: https://github.com/Sameer-44
 - Trained model weights
 Trained Model
    ↓
