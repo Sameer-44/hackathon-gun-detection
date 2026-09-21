@@ -67,37 +67,22 @@ hackathon-gun-detection/
 
 The project includes training and evaluation outputs generated during model development.
 
-The `runs/` directory contains:
+### Training Performance
 
-- Training results
-- Validation results
-- Confusion matrices
-- Normalized confusion matrices
+The training curves show a substantial decrease in training and validation loss over the training epochs. The recorded top-1 and top-5 accuracy metrics reach approximately 1.0 in the training results.
+
+![Training Results](runs/classify/train/results.png)
+
+### Evaluation Outputs
+
+The `runs/` directory also contains:
+
+- Confusion matrix
+- Normalized confusion matrix
 - Training and validation batch visualizations
-- Model performance plots
-
-## 🎥 Inference
-
-Sample test videos are available in the `inference/` directory:
-
-- `test.mp4`
-- `test2.mp4`
-- `test3.mp4`
-- `test4.mp4`
-
-These videos can be used to test the trained model and observe its detection performance.
-
-## 🔬 Project Workflow
-
-```text
-Dataset
-   ↓
-Data Preparation
-   ↓
-YOLO Model Training
-   ↓
-Model Evaluation
-   ↓
+- Model performance results
+- Training configuration
+- Trained model weights
 Trained Model
    ↓
 Image / Video Inference
